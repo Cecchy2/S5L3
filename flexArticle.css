@@ -8,15 +8,39 @@ article{
     
     background-color: rgb(251, 247, 227);
     display: flex;
-    border-radius:20px ;
+    border-radius:25px ;
+    max-width: 1200px;
+    box-sizing: border-box;
+    
 
 }
 .immagine{
+    min-width: 420px;
     width: 50vw;
     margin: 20px;
 }
 .testo{
     width: 50vw;
     margin-top: 20px;
-    
+    font-size: 0.8em;   
 }
+
+@media screen and (max-width: 767px){
+        article {
+            flex-direction :column-reverse;
+            width: 60%;
+            
+            
+        }
+        .testo{
+            margin-left: 7%;
+
+            
+        }
+        .immagine{
+            min-width: 100px;
+            margin-block: 0;
+            
+        }
+        
+    }
