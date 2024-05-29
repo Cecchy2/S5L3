@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 36, 5);
+}
+
+article{
+    
+    background-color: rgb(251, 247, 227);
+    display: flex;
+    border-radius:20px ;
+
+}
+.immagine{
+    width: 50vw;
+    margin: 20px;
+}
+.testo{
+    width: 50vw;
+    margin-top: 20px;
+    
+}
