@@ -108,3 +108,56 @@ button{
         margin-top: 0;
     }
 }
+
+/* --------Flex Article */
+
+#article{
+    
+    background-color: rgb(251, 247, 227);
+    display: flex;
+    border-radius:25px ;
+    max-width: 1200px;
+    box-sizing: border-box;
+    
+
+}
+.immagine{
+    min-width: 420px;
+    width: 50vw;
+    margin: 20px;
+}
+.testo{
+    width: 50vw;
+    margin-top: 20px;
+    font-size: 0.8em;   
+}
+
+@media screen and (max-width: 767px){
+        article{
+        margin-top: 30px;
+        margin-bottom: 0;
+         }
+        #article {
+        flex-direction :column-reverse;
+        width: 95vw;            
+        margin-inline: auto;                
+        }
+        .testo{
+            margin-left: 7%;
+
+            
+        }
+        .immagine{
+            min-width: 100px;
+            margin-block: 0;
+            border-radius: 0;
+            width: 85vw;
+            margin-left: 7%;
+            }
+            .testo{
+                width: 85vw;
+            
+        }
+        
+        
+    }
