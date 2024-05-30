@@ -154,7 +154,8 @@ button{
     }
     #cards{
         display: flex;
-        gap: 20px;
+        
+        justify-content: space-evenly;
         
     }
     
@@ -218,18 +219,20 @@ button{
         #article{
             flex-direction: column-reverse;
             padding-left: 3%;
-            padding-block: 2%;
+            
         }
         .immagine{
-            margin: 0;
+            
             border-radius: 0 0 20px 20px;
+            width: 70vw;
+            margin: 0;
         }
         .testo{
-            margin: 0;
+            width: 70vw;
 
         }
         .testo h3{
-            margin: 0;
+            
             font-size: 1.1em;
         }
         
